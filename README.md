@@ -1,6 +1,6 @@
-# TurboWarp Desktop
+# MirrorWarp Desktop
 
-TurboWarp as a desktop app.
+MirrorWarp as a desktop app.
 
 If you're looking for downloads, head to: https://desktop.turbowarp.org/
 
@@ -17,7 +17,7 @@ The website source code is in the `docs` folder.
 We use submodules, so clone using:
 
 ```bash
-git clone --recursive https://github.com/TurboWarp/desktop turbowarp-desktop
+git clone --recursive https://github.com/MirrorWarp/desktop mirrorwarp-desktop
 ```
 
 or run this after cloning:
@@ -100,9 +100,9 @@ It is possible to give each packaged version of the app a unique *distribution I
 
 ## Advanced customizations
 
-TurboWarp Desktop lets you configure custom JS and CSS without rebuilding the app.
+MirrorWarp Desktop lets you configure custom JS and CSS without rebuilding the app.
 
-Find TurboWarp Desktop's data path by using the list below or by clicking "?" in the top right corner, then "Desktop Settings", then "Open User Data", then opening the highlighted folder, or refer to this list:
+Find MirrorWarp Desktop's data path by using the list below or by clicking "?" in the top right corner, then "Desktop Settings", then "Open User Data", then opening the highlighted folder, or refer to this list:
 
  - Windows (except Microsoft Store): `%APPDATA%/turbowarp-desktop`
  - Microsoft Store: Open `%LOCALAPPDATA%/Packages`, find the folder with the word `TurboWarpDesktop` in it, then open `LocalCache/Roaming/turbowarp-desktop`
@@ -116,4 +116,4 @@ Create the file `userscript.js` in this folder to configure custom JS. Create th
 
 ## Uninstall
 
-See https://desktop.turbowarp.org/uninstall
+See https://desktop.mirrorwarp.org/uninstall

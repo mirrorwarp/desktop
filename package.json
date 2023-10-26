@@ -1,10 +1,10 @@
 {
-  "name": "turbowarp-desktop",
+  "name": "mirrorwarp-desktop",
   "description": "Scratch mod with a compiler, dark mode, a bunch of addons, and more.",
   "version": "1.9.3",
   "license": "GPL-3.0",
   "author": {
-    "email": "contact@turbowarp.org",
+    "email": "contact@mirrorwarp.org",
     "name": "Thomas Weber"
   },
   "scripts": {
@@ -36,25 +36,25 @@
     "postcss-import": "^14.0.0",
     "postcss-loader": "^4.2.0",
     "postcss-simple-vars": "^6.0.3",
-    "scratch-gui": "git+https://github.com/TurboWarp/scratch-gui.git#develop",
+    "scratch-gui": "git+https://github.com/MirrorWarp/scratch-gui.git#develop",
     "style-loader": "^0.23.0",
     "url-loader": "^4.1.1",
     "webpack": "^4.47.0",
     "webpack-cli": "^4.10.0"
   },
-  "homepage": "https://desktop.turbowarp.org/",
+  "homepage": "https://desktop.mirrorwarp.org/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TurboWarp/desktop.git"
+    "url": "https://github.com/MirrorWarp/desktop.git"
   },
   "bugs": {
-    "url": "https://github.com/TurboWarp/desktop/issues",
-    "email": "contact@turbowarp.org"
+    "url": "https://github.com/MirrorWarp/desktop/issues",
+    "email": "contact@mirrorwarp.org"
   },
   "main": "./src-main/entrypoint.js",
   "build": {
-    "appId": "org.turbowarp.desktop",
-    "productName": "TurboWarp",
+    "appId": "org.mirrorwarp.desktop",
+    "productName": "MirrorWarp",
     "files": [
       "node_modules/**/*",
       "src-main/**/*",
@@ -86,9 +86,9 @@
     },
     "appx": {
       "artifactName": "${productName} MS Store ${version} ${arch}.${ext}",
-      "applicationId": "TurboWarp",
-      "displayName": "TurboWarp",
-      "identityName": "45747ThomasWeber.TurboWarpDesktop",
+      "applicationId": "MirrorWarp",
+      "displayName": "MirrorWarp",
+      "identityName": "45747ThomasWeber.MirrorWarpDesktop",
       "publisher": "CN=18FA7D4F-01BF-49F2-BF56-782DCEA49C69",
       "publisherDisplayName": "Thomas Weber",
       "backgroundColor": "#4c97ff",
@@ -143,7 +143,7 @@
       "artifactName": "${productName}-${os}-${arch}-${version}.${ext}",
       "icon": "./build/",
       "synopsis": "Mod of Scratch with a compiler and more features.",
-      "description": "TurboWarp is a Scratch mod with a compiler to run projects faster, dark mode for your eyes, a bunch of addons to improve the editor, and more.",
+      "description": "MirrorWarp is a Scratch mod with a compiler to run projects faster, dark mode for your eyes, a bunch of addons to improve the editor, and more.",
       "category": "Development",
       "extraFiles": [
         "linux-files"
@@ -199,7 +199,7 @@
       {
         "provider": "github",
         "repo": "desktop",
-        "owner": "TurboWarp"
+        "owner": "MirrorWarp"
       }
     ],
     "afterSign": "scripts/after-sign.js"

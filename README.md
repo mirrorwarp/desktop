@@ -2,7 +2,7 @@
 
 MirrorWarp as a desktop app.
 
-If you're looking for downloads, head to: https://desktop.mirrorwarp.github.io/
+If you're looking for downloads, head to: https://mirrorwarp.github.io/desktop/
 
 Licensed under the GPLv3.0. See LICENSE for more information.
 
@@ -116,4 +116,4 @@ Create the file `userscript.js` in this folder to configure custom JS. Create th
 
 ## Uninstall
 
-See https://desktop.mirrorwarp.github.io/uninstall
+See https://mirrorwarp.github.io/desktop/uninstall
